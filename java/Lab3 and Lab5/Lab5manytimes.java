@@ -1,20 +1,18 @@
-package Lab3;
-
+/* if you have n groups of 6 dice, how many
+times do you have to roll them, on average, before you get an equal numbers of
+ones, twos, threes, fours, fives and sixes?
+Runs for many amounts of dice*/
 public class Lab5manytimes {
-	
 	final static long startTime = System.currentTimeMillis();
 	
 	public static void main(String args[]){
-		
 		byte x = 0;
 		int n = 1, dicen = 6, times = 10000, dicea = dicen*n;
 		double sum = 0, count = 0;
 		int[] total = new int[dicen];
 		dice d = new dice();
 		
-		
 		while(n<11){
-			
 			dicea = dicen*n;
 			sum = 0;
 		
@@ -37,7 +35,6 @@ public class Lab5manytimes {
 					for (int k = 0;k<dicen;k++){
 						total[k]=0;
 					}
-			
 				}
 				sum = count + sum;
 			}
@@ -45,8 +42,6 @@ public class Lab5manytimes {
 			n++;
 			
 			System.out.println("Total execution time: " + (System.currentTimeMillis() - startTime) );
-			
 		}
 	}
-
 }
