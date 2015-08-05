@@ -1,5 +1,5 @@
-package lab9;
-
+/*contructor for queue using double-ended
+singly-linked list*/
 public class Queue {
 	private FirstLastList thelist;
     private int size,length;
@@ -29,5 +29,4 @@ public class Queue {
     public int getSize(){
            return length;
     }
-
 }

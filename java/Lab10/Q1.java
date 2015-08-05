@@ -1,4 +1,8 @@
-package lab10;
+/*First Write a method that takes in an array of Strings and concatenates them all without using a
+loop.
+Second. There are apparently 239 people
+registered for the CS210 course. How likely is it that two people in the class share the
+same birthday?*/
 import java.util.*;
 
 public class Q1 {
@@ -8,6 +12,7 @@ public class Q1 {
 	public static void main(String args[]){
 			Scanner scan = new Scanner(System.in);
 			int length = 0;
+			//loops only used to take in strings not concatenate
 			while(length<=0){
 				System.out.println("Please enter the number of strings.");
 				length = scan.nextInt();

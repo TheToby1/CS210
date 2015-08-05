@@ -1,5 +1,7 @@
-package lab7;
-
+/*The goal of the lab is to sort the movies by ratings, using one of the sorting algorithms
+above, and save a file which includes one column for movie name and another
+column for its average rating, with the best film at the top and the worst film at the
+bottom.*/
 import java.util.*;
 
 public class lab7 {
@@ -81,8 +83,5 @@ public class lab7 {
 	       }catch (Exception e){
 	           System.out.println(e.getClass());
 	       }
-		
 	}
-
-
 }

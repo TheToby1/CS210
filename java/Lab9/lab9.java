@@ -1,5 +1,6 @@
-package lab9;
-
+/*The objective is to create a queue data structure implemented using a double-ended
+singly-linked list that can be used to track patients waiting to see the doctor in the
+waiting room. */
 import java.util.Scanner;
 
 public class lab9 {
@@ -22,8 +23,6 @@ public class lab9 {
                  System.out.println("The size of the queue is "+myqueue.getSize());
            }
         }
-        
         in.close();
 	}
-
 }

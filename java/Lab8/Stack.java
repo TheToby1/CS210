@@ -1,3 +1,7 @@
+/*A Stack class which contains push( ) and pop( )
+methods. Also includes a private method in the class which is called after each
+stack operation and prints out the current contents of the stack so you can see it
+changing.*/
 package lab8;
 
 public class Stack {

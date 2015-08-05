@@ -1,11 +1,8 @@
-package lab8;
-
+/*Use a stack structure to reverse a word.*/
 import java.util.*;
 
 public class Lab8 {
-	
 	public static void main(String args[]){
-		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter word to reverse:");
 		String word = scan.nextLine();
@@ -20,9 +17,7 @@ public class Lab8 {
 		for(int i = 0;i<word.length();i++){
 			backwards += stack1.pop();
 		}
-		System.out.println("Reversed: " + backwards);
-		
+		System.out.println("Reversed: " + backwards);	
 		scan.close();
 	}
-
 }

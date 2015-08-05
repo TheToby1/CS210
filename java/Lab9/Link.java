@@ -1,8 +1,6 @@
-package lab9;
-
+/*constructor for links*/
 public class Link {
 	  public String iData;
-
 	  public Link next;
 
 	  public Link(String id) {
