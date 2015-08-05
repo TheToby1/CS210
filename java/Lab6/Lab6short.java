@@ -1,9 +1,8 @@
-package lab6;
-
+/*Given a number n find all primes up to that. eg n = 5 primes up to 5 are 2 and 3
+Shorter and faster seive than the original*/
 import java.util.Scanner;
 
 public class Lab6short {
-	
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter number to go to:");
@@ -28,5 +27,4 @@ public class Lab6short {
 		System.out.println("Total execution time: " + (System.currentTimeMillis() - starttime) + "ms" );
 		scan.close();
 	}
-
 }

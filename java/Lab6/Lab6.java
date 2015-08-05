@@ -1,11 +1,10 @@
-package lab6;
+/*Given a number n find that prime. eg n = 5 prime is 11 because 5th prime is 11
+Basic seive not very fast*/
 import java.util.Scanner;
 import static java.lang.Math.*;
 
 public class Lab6 {
-	
 	public static void main(String args[]){
-		
 		Scanner scan = new Scanner(System.in);
 		int prime, length;
 		long starttime;
@@ -17,7 +16,6 @@ public class Lab6 {
 			switch(prime){
 				case 1: System.out.println("The prime is 2");
 						break;
-			
 				default:length = (int)(1.2*prime*(log(prime))+3);
 						prime--;
 						byte[] nums = new byte[length];
@@ -46,7 +44,5 @@ public class Lab6 {
 			if(scan.nextInt()==1) break;
 		}
 		scan.close();
-		
 	}
-
 }

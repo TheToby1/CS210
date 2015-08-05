@@ -1,9 +1,9 @@
-package lab6;
-
+/*Given a number n find that prime. eg n = 5 prime is 11 because 5th prime is 11
+Precomputes a seive up to a certain number limited by available memory
+look up time is then O(n) could be optimised if primes were put in seperate array*/
 import java.util.Scanner;
 
 public class lab6other {
-	
 	public static void main(String args[]){
 		Scanner scan = new Scanner(System.in);
 		int prime, length = 715653102;
@@ -22,7 +22,6 @@ public class lab6other {
 				}
 			}
 		}
-		
 		System.out.println("Total execution time: " + (System.currentTimeMillis() - starttime) + "ms" );
 		
 		while(true){
@@ -46,7 +45,5 @@ public class lab6other {
 			if(scan.nextInt()==1) break;
 		}
 		scan.close();
-		
 	}
-
 }

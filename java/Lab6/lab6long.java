@@ -1,5 +1,6 @@
-package lab6;
-
+/*Given a number n find that prime. eg n = 5 prime is 11 because 5th prime is 11
+Precomputes a seive up to a certain number limited by available memory
+attempts to use a 2d array for faster look up, fails and horrible code*/
 import java.util.Scanner;
 
 public class lab7long {
@@ -33,7 +34,6 @@ public class lab7long {
 				}
 			}
 		}
-		
 		System.out.println("Total execution time: " + (System.currentTimeMillis() - starttime) + "ms" );
 		
 		while(true){
@@ -59,14 +59,10 @@ public class lab7long {
 					}
 				}
 			}
-
-			
 			System.out.println("Total execution time: " + (System.currentTimeMillis() - starttime) + "ms" );
 			System.out.println("Press any number to continue or 1 to quit.");
 			if(scan.nextInt()==1) break;
 		}
 		scan.close();
-		
 	}
-
 }
